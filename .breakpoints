@@ -1,0 +1,28 @@
+{
+  "files": {
+    "comandos/ping.js": [
+      {
+        "id": "c5278535-fc75-4aac-b19d-8e65edfd15ef",
+        "line": 1,
+        "version": 67,
+        "index": 0
+      }
+    ],
+    "comandos/play.js": [
+      {
+        "id": "2fac8f2d-9956-4c35-9bbb-f0cec3702ca8",
+        "line": 15,
+        "version": 642,
+        "index": 387
+      }
+    ],
+    "index.js": [
+      {
+        "id": "09cd0938-e0e0-4ea7-a8aa-ec0d6e478a61",
+        "line": 53,
+        "version": 2703,
+        "index": 1241
+      }
+    ]
+  }
+}

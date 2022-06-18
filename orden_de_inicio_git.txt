@@ -1,0 +1,13 @@
+git push heroku main
+
+git add .
+
+git commit -am "javasbotj3"
+
+git init
+
+DETENER GIT 
+
+https://dashboard.heroku.com/apps/javabotj3/resources
+
+DESCONECTAR INCIO NODE INDEX.JS - worker
