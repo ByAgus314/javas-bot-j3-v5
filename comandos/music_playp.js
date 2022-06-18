@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
-const distube = require('distube')
+const distube = require('distube');
+const { send } = require('process');
 
 module.exports = {
   name: "playp", 
@@ -17,14 +18,15 @@ execute (client, message, args){
     
     
     if(client.voice.connections.get(message.guild.id) && message.member.voice.channel && message.member.voice.channel.id !== client.voice.connections.get(message.guild.id).channel.id) { 
-    return message.channel.send('Debes estar en el mismo canal de voz que estoy yo :rage:.')
+    return message.channel.send('Debes estar en el mismo canal de voz que estoy yo.')
     }
-    
-   
+      
     
 
 
      client.distube.resume(message)
+
+     send.channel.send("Cancion resumida")
 
  }
 
