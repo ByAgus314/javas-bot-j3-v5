@@ -120,7 +120,7 @@ client.distube.on(`intiQueue`, (queue) => {
 })
 
 
-client.login(OTcwMTE1OTMyMjU1MDM5NTE4.GjLVOp.ta65cB2zc2lGvxnmJUSXSECQOFKxRxc09kNtjw);
+client.login("OTcwMTE1OTMyMjU1MDM5NTE4.GjLVOp.ta65cB2zc2lGvxnmJUSXSECQOFKxRxc09kNtjw");
 
 
 
