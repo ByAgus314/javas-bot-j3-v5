@@ -3,8 +3,8 @@ const db = require('../database/models/warns.js')
 const Discord = require('discord.js');
 
 module.exports = {
-    name : 'remove-warn',
-    alias: ["rmw"], 
+    name : 'clear-warns',
+    alias: ["cw"], 
 
 execute (client, message, args){
 
@@ -22,5 +22,5 @@ db.findOne({ guildid : message.guild.id, user: user.user.id}, async(err,data) =>
 })
 
     }
-    
+
 }
