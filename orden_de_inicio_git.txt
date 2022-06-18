@@ -9,3 +9,17 @@ DETENER GIT
 https://dashboard.heroku.com/apps/javabotj3/resources
 
 DESCONECTAR INCIO NODE INDEX.JS - worker
+
+
+
+
+-----------------------------------------------------
+
+
+SUBIR PROYECTO A REPOSITORIO GITHUB
+
+git add .
+
+git commit -m ""
+
+git push origin master
