@@ -3,8 +3,6 @@ const client = new Discord.Client()
 const { Client, MessageEmbed, Guild } = require('discord.js');
 require('dotenv').config();
 const mongoose = require('mongoose');
-const config = require('./config.json')
-const token = config.token
 
 mongoose.connect('mongodb+srv://ByAgus314:Nunylindo09@cluster0.gsiud.mongodb.net/Data',{
   useNewUrlParser: true,
@@ -122,7 +120,7 @@ client.distube.on(`intiQueue`, (queue) => {
 })
 
 
-client.login(token);
+client.login(OTcwMTE1OTMyMjU1MDM5NTE4.GjLVOp.ta65cB2zc2lGvxnmJUSXSECQOFKxRxc09kNtjw);
 
 
 
