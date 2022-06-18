@@ -1,10 +1,8 @@
-git push heroku main
-
 git add .
 
-git commit -am "javasbotj3"
+git commit -am ""
 
-git init
+git push heroku master
 
 DETENER GIT 
 
