@@ -4,7 +4,7 @@ const { Client, MessageEmbed, Guild } = require('discord.js');
 require('dotenv').config();
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://ByAgus314:Nunylindo09@cluster0.gsiud.mongodb.net/Data',{
+mongoose.connect('mongodb+srv://ByAgus314:Nunylindo09@cluster0.gsiud.mongodb.net/local',{
   useNewUrlParser: true,
   useUnifiedTopology: true
 }, () => 
