@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 
 module.exports = {
   name: "help", 
-  alias: [], 
+  alias: ["h"], 
 
 execute (client, message, args){
 

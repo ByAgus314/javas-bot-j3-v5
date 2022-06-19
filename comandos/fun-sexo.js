@@ -1,16 +1,12 @@
 const Discord = require('discord.js');
 
 module.exports = {
-  name: "say", 
-  alias: [], 
+  name: "sexo", 
+  alias: ["gemido*"], 
 
 execute (client, message, args){
 
-
-const texto = args.join(` `)
-
-message.channel.send(texto)
-
+message.channel.send("sexo? donde?")
  }
 
 } 

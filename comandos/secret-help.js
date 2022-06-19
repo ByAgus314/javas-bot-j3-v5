@@ -8,13 +8,10 @@ execute (client, message, args){
 
     const embed= new Discord.MessageEmbed() 
 
-    .setTitle("prueba")
-    .setDescription("prueba2")
+    .setTitle("informacion sobre::")
+    .setDescription("Hay algunos comandos secretos de Java's BOT, son 8 comandos; cada uno da una recompensa exclusiva dentro del servidor de Minecraft. \n \n \n \n \n \n \n \n 0/8 COMANDOS DESCUBIERTOS")
     .setColor("RANDOM")
-    .setImage(`https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/250px-Adobe_XD_CC_icon.svg.png`)
-    .setAuthor("prueba4")
-    .setTimestamp("prueba5")
-    .setURL(`https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/250px-Adobe_XD_CC_icon.svg.png`)
+    
     
     message.channel.send(embed)
 
