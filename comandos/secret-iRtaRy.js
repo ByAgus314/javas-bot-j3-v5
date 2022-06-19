@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 
 module.exports = {
-  name: " iRtaRyZ", 
+  name: "iRtaRyZ", 
   alias: [" iRtaRyZ"], 
 
 execute (client, message, args){
