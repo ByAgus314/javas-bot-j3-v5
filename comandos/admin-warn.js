@@ -8,9 +8,9 @@ module.exports = {
 
 execute (client, message, args){
 
-    if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send(`no hay permisoss`)
+    if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send(`No tienes los permisos suficientes`)
     const user = message.mentions.members.first() || message.guild.members.cache.get(args[0])
-    if(!user) return message.channel.send(`Y el usuario?`)
+    if(!user) return message.channel.send(`No se encuentra al usuasrio`)
     
 
     const reason = args.slice(1).join(" ") ? args.slice(1).join(" ") : "No hay motivo" 
@@ -22,8 +22,8 @@ execute (client, message, args){
                 user : user.user.id,
                 content : [
                     {
-                        moderator : message.author.id,//guerdamos en responsable
-                        reason : reason //la razon 
+                        moderator : message.author.id,
+                        reason : reason 
                     }
                 ]
             })
@@ -34,7 +34,7 @@ execute (client, message, args){
             }
             data.content.push(obj)
         }
-        data.save() // lo guardamos
+        data.save()
     });
 
     const embed = new Discord.MessageEmbed()
