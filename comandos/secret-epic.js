@@ -10,7 +10,7 @@ execute (client, message, args){
 
     .setTitle("epic")
     .setDescription("epic")
-    .setFooter("Encontrados: 0/8")
+    .setFooter("Hay algunos comandos ocultos que dan recompensas dentro del servidor de Minecraft!")
     .setColor("RANDOM")
     
     
