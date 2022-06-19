@@ -4,7 +4,7 @@ LICENSE: GNU
 
 OWNER: epic?#3749
 
-VERSION: v6.5.3
+VERSION: v6.5.5
 
 LIBRERIES: 
             "@discordjs/node-pre-gyp": "^0.4.1",
