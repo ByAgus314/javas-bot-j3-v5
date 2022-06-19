@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 
 module.exports = {
   name: "epic", 
-  alias: ["epic"], 
+  alias: [], 
 
 execute (client, message, args){
 
