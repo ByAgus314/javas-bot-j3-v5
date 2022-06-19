@@ -7,6 +7,7 @@ OWNER: epic?#3749
 VERSION: v6.5.5
 
 LIBRERIES: 
+{
             "@discordjs/node-pre-gyp": "^0.4.1",
             "@discordjs/opus": "^0.5.3",
             "canvacord": "^5.2.3",
@@ -22,3 +23,5 @@ LIBRERIES:
             "opusscript": "^0.0.8",
             "ytdl-core": "^4.9.1",
             "ytdl-core-discord": "^1.3.1"
+            
+            }
