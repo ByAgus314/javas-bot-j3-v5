@@ -9,5 +9,8 @@ execute (client, message, args){
 
  }
 
-} 
+}
+
+aprende
+ 
 
