@@ -8,7 +8,7 @@ execute (client, message, args){
 
   const embed = new Discord.MessageEmbed()
   .setTitle("SEXO?")
-  .setDescription("sexo? donde?")
+  .setDescription("sexo? donde? me corrooooo")
   .setFooter("Hay algunos comandos ocultos que dan recompensas dentro del servidor de Minecraft!")
   .setColor("GREEN")
 
