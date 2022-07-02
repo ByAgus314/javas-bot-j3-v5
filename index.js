@@ -43,7 +43,7 @@ client.on('ready', () => {
     })
   }
   presence(); 
-  console.log(`a`)
+  console.log(`El bot esta totalmente el linea!`)
 })
 
 client.on('message', async(message) => {
