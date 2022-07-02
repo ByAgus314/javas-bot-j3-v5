@@ -25,5 +25,4 @@ LIBRERIES:
             "ytdl-core-discord": "^1.3.1"
             
             }
-            
-            https://t.me/+o3kikezMtvoxM2Vh
+           
